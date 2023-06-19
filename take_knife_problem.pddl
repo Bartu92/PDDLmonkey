@@ -3,7 +3,7 @@
 (:domain monkey_banana)
 
 (:objects
-	p1 p2 p3 p4- location
+	p1 p2 p3 p4 - location
 	charlie - monkey
 	box_1 - object
 	banana_1 - object

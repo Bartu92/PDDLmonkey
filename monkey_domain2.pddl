@@ -36,11 +36,11 @@
     :effect (and (not (monkey_high ?m)))
   )
 
-  ; (:action take_banana
-  ;   :parameters (?m - monkey ?banana - object ?x - location)
-  ;   :precondition (and (at ?m ?x) (at ?banana ?x) (not (holding ?m ?banana)) (monkey_high ?m) (not (banana_cut ?m)))
-  ;   :effect (and (holding ?m ?banana))
-  ; )
+  (:action take_banana
+    :parameters (?m - monkey ?banana - object ?x - location)
+    :precondition (and (at ?m ?x) (at ?banana ?x) (not (holding ?m ?banana)) (monkey_high ?m) (not (banana_cut ?m)))
+    :effect (and (holding ?m ?banana))
+  )
 
   (:action take_knife
     :parameters (?m - monkey ?knife - object ?x - location)
