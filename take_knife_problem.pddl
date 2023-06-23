@@ -7,7 +7,7 @@
 	charlie - monkey
 	box_1 - object
 	banana_1 - object
-	knife1 - object
+	knife1 - cutter_ob
 )
 
 (:init

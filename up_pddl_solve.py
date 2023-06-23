@@ -4,7 +4,7 @@ import unified_planning.shortcuts as up
 from unified_planning.io.pddl_reader import PDDLReader
 
 pddl_reader = PDDLReader()
-problems = ['goto_problem.pddl','take_knife_problem.pddl']
+problems = ['goto_problem.pddl','take_knife_problem.pddl','take_banana_problem.pddl','take_water_problem.pddl']
 
 for problem in problems:
     print(f'solving problem: {problem}')
